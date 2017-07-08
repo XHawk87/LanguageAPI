@@ -1,0 +1,18 @@
+name: ${project.name}
+main: ${project.groupId}.${project.artifactId}.${project.name}
+version: ${project.version}
+description: ${project.description}
+
+commands:
+  Locale:
+    description: Sets your personal display language preference
+    usage: /Locale [ISO language code]
+  ServerLocale:
+    description: Sets the default server display language preference
+    usage: /ServerLocale [ISO language code]
+    permissions: languageapi.commands.serverlocale
+permissions:
+  languageapi.commands.serverlocale:
+    description: Allows setting the server locale
+    default: op
+
