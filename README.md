@@ -10,6 +10,5 @@ Just add the following to your pom.xml to use it in your projects:
         
         <dependency>
             <artifactId>LanguageAPI</artifactId>
-            <version>0.2</version>
-            <version>0.03</version>
+            <version>0.3</version>
         </dependency>
