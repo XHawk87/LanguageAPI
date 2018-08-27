@@ -1,6 +1,6 @@
 Usage:
 
-Just use the following pom.xml to use it in your projects:
+Just add the following to your pom.xml to use it in your projects:
 
         <repository>
            <id>jitpack.io</id>
